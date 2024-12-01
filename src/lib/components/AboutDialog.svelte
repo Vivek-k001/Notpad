@@ -80,6 +80,22 @@
         </a>
       </p>
 
+   <li>Technologies Used </li>
+        <ul type="disc">
+        <li>Svelte</i>
+        <li>Svelte Shadon</li>
+        <li>Tailwind CSS</li>
+        </ul>
+        <p>
+        <li>Technologies Used </li>
+        <ul type="disc">
+        <li>Allows users to create, edit, and delete text</li>
+        <li>Enables users to cut,copy, and paste text in Notepad</li>
+        <li>Allows users to undo and redo changes made to the text</li>
+        <li>Enables users to create new files, open existing files, and save files</li>
+        <li>Modern and Simple Theme</li>
+        </ul>
+
       {#await Notpad.github.getContributors() then contributors}
         {#if contributors}
           <div transition:slide|global>
